@@ -25,6 +25,10 @@ Print the predicted output.
 
 ## Program:
 ```
+# program for multivariate linear regression
+# Developed by:Ashwath M
+# reference number:212223230023
+
 import pandas as pd
 from sklearn import linear_model
 data=pd.read_csv("cars.csv")
@@ -39,7 +43,7 @@ print('predicted CO2 for the corresponding weight and volume',predictCO2)
 
 ```
 ## Output:
-![putput](/out.png)
+![output](/out.png)
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
